@@ -17,4 +17,7 @@ LOCAL_PRIVILEGED_MODULE := true
 
 LOCAL_CERTIFICATE := platform
 
+# Enable dexpreopt to speed boot time
+WITH_DEXPREOPT := true
+
 include $(BUILD_PACKAGE)
